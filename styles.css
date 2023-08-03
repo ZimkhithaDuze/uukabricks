@@ -31,10 +31,7 @@ p {
   font-size: 18px;
   font-weight: 400;
 }
-.uuka-logo {
-text-align: right;
-min-width: 30px;
-}
+
 a {
   color: cadetblue;
   transition: all 100ms ease-in-out;
@@ -43,8 +40,8 @@ a:hover {
   color: #ffffff;
 }
 
-.hero {
-  background-image: url("./images/black.jpg");
+.hero {S
+  background-image: url ("./black.jpg");
   text-align: center;
   padding: 100px 20px;
   background-attachment: fixed;
@@ -83,12 +80,48 @@ a:hover {
 }
 
 .about-content {
-  padding-left: 40px;
+  padding-right: 40px;
 }
-
+.col {
+  text-align: right;
+}
+.col {
+  text-align: center;
+}
+.pull-right {
+  margin: 40 40 40 auto;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
 footer .social-links a {
   margin: 0 20px;
+  padding: 15px 30px;
+  border-radius: 50%;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+  font-size: 18px;
 }
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
 
 @media (max-width: 500px) {
   p {
